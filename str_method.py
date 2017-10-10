@@ -2,7 +2,7 @@ str_center = "Nein".center(10)
 print("*" * 10)
 print(str_center)
 
-str_count = "Eye Glasses".count(s)
+str_count = "Eye Glasses".count("s")
 print(str_count)
 
 str_endswith = "LOL"
@@ -17,7 +17,7 @@ str_format = "{0}, {1}".format(3, "4")
 print(str_format)
 
 str_index = "SIMPLICITY or simplicity"
-print(str_index.index(i))
+print(str_index.index("i"))
 #print(str_index.index(a))
 
 str_alnum = "10ten"
@@ -33,7 +33,7 @@ print(str_digit.isdecimal())
 print(str_digit.isdigit())
 print(str_alpha.islower())
 print(str_space.isspace())
-print(str_alpha.isupper))
+print(str_alpha.isupper())
 
 str_join = ("a", "b", "c")
 print("-".join(str_join))
