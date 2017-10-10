@@ -58,7 +58,7 @@ print(str_split_3.split("o"))
 print(str_split_1.splitlines())
 print(str_split_2.splitlines())
 
-str_strip = "34 "
+str_strip = " 34 "
 print(str_strip.strip().isdigit())
 
 str_upper = "lord voldemort"
